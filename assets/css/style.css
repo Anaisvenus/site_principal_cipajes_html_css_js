@@ -11,7 +11,6 @@
 
 /*------------------------------------------------------------------------
 
-
   01. Common Styles
       -Typography
       -Buttons
@@ -77,9 +76,7 @@ body {
 }
 
 a {
-  color: #b1d045
-
-;
+  color: #b1d045;
   -webkit-transition: all .25s ease-in-out;
      -moz-transition: all .25s ease-in-out;
       -ms-transition: all .25s ease-in-out;
@@ -275,8 +272,8 @@ p {
 .btn-black {
   text-transform: uppercase;
   color: #fff;
-  background-color: #000;
-  border-color: #000;
+  background-color: #b1d045;
+  border-color: #b1d045;
 }
 
 .btn-black:hover {
@@ -310,7 +307,7 @@ p {
 
 .btn-dark:hover, .btn-dark:active, .btn-dark:focus, .btn-dark:visited {
   color: rgba(255,255,255, .85);
-  background: rgba(0,0,0, .7);
+  background: #b1d045;
   outline: 0;
   box-shadow: none;
 }
